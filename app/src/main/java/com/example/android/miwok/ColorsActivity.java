@@ -38,6 +38,7 @@ public class ColorsActivity extends AppCompatActivity {
         words.add(new Word("gray", "ṭopoppi", R.drawable.color_gray));
         words.add(new Word("black", "kululli", R.drawable.color_black));
         words.add(new Word("white", "kelelli", R.drawable.color_white));
+        int i;
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
